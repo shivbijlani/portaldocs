@@ -21,7 +21,7 @@ Extensions are simply web applications written using the [Azure Portal SDK](down
 - View models make heavy use of [Knockout](http://knockoutjs.com/) for binding data to the client.
 - Building custom UI is enabled using standard web technologies like [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS).
 - Extension UI is deployed using the extension hosting service to an endpoint created for your team by ibiza team. 
-- Ibiza recommends not using Controllers so that all the APIs are exposed through ARM. This ensures that Azure portal customers have consistent experience while accessing the resources through UI, powershell or CLI. However, we understand in some scenarios extensions may need to omplement custom business logic. In this case, extension authors are responsible for hosting  controllers.
+- Ibiza recommends not using Controllers so that all the APIs are exposed through ARM. This ensures that Azure portal customers have consistent experience while accessing the resources through UI, powershell or CLI. However, we understand in some scenarios extensions may need to implement custom business logic. In this case, extension authors are responsible for hosting  controllers.
 
 **NOTE:** Learn more about [deployment](portalfx-deployment.md).
 
